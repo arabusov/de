@@ -51,6 +51,7 @@ while True:
   if art!="u" and genera !="pl":
     break
 kas=random.choice (Kasus)
+print "Enter article and corresponding ending of adjective"
 print art_name[art], "Artikel,", genera_name[genera], kasus_name[kas]
 answer=raw_input ("** ")
 answer = answer.split()
