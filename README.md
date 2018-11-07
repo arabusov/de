@@ -1,5 +1,5 @@
 # DE
-Simple software to study German, especially forms of adjectivs
+Simple software to learn German, especially forms of adjectivs
 ## How to use
 ```bash
 python artikeln.py
