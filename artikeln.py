@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 Kasus = ["N", "G", "D", "A"]
 Genera = ["m", "n", "f", "pl"]
 Art = ["o", "u", "b"]
@@ -45,11 +46,8 @@ print art_name["u"], genera_name["f"], kasus_name\
 import random, os
 random.seed (os.urandom(5))
 art=None; genera=None; kas=None;
-while True:
-  art=random.choice (Art)
-  genera=random.choice (Genera)
-  if art!="u" and genera !="pl":
-    break
+art=random.choice (Art)
+genera=random.choice (Genera)
 kas=random.choice (Kasus)
 print("Enter article and corresponding ending of adjective")
 print(art_name[art], "Artikel,", genera_name[genera], kasus_name[kas])
