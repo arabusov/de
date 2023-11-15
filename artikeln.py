@@ -51,13 +51,13 @@ while True:
   if art!="u" and genera !="pl":
     break
 kas=random.choice (Kasus)
-print "Enter article and corresponding ending of adjective"
-print art_name[art], "Artikel,", genera_name[genera], kasus_name[kas]
-answer=raw_input ("** ")
+print("Enter article and corresponding ending of adjective")
+print(art_name[art], "Artikel,", genera_name[genera], kasus_name[kas])
+answer=input ("** ")
 answer = answer.split()
 correct_answer = art_table[art][genera][kas]+" "+Adj_end[art][genera][kas]
 correct_answer = correct_answer.split()
 if answer != correct_answer:
-  print "Wrong answer, correct is: ", " ".join(correct_answer)
+  print("Wrong answer, correct is: ", " ".join(correct_answer))
 else:
-  print "Correct."
+  print("Correct.")
